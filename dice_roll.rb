@@ -14,5 +14,5 @@ end
 =end
 
 def roll
-  return (1..6).rand
+  return rand(1..6)
 end
