@@ -14,6 +14,5 @@ end
 =end
 
 def roll
-  arr = (1..6).to_a
-  return arr.rand
+  (1..6).rand
 end
