@@ -4,7 +4,15 @@
 
 
 
+=begin
+
 def roll
   arr = (1..6).to_a.shuffle
   return arr[0]
 end
+
+=end
+
+def roll
+  arr = (1..6).to_a
+  return arr.rand
