@@ -5,5 +5,6 @@
 
 
 def roll
-  arr = (1..6).to_a
+  arr = (1..6).to_a.shuffle
+  return arr[0]
 end
